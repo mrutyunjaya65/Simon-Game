@@ -29,6 +29,45 @@ h1 {
     cursor: pointer;
 }
 
+.start-button {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #1bd9eb;
+    color: #0B1C2D;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start-button:active {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(19, 22, 226);
+    color: white;
+}
+
+
+.Restart-button {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #1bd9eb;
+    color: #0B1C2D;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Restart-button:active {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(19, 22, 226);
+    color: white;
+}
+
 .red {
     background-color: red;
 }
@@ -43,6 +82,10 @@ h1 {
 
 .yellow {
     background-color: yellow;
+}
+
+.color-button {
+    transition: all 0.2s ease; /* Smooth transition for all properties */
 }
 
 .pressed {
